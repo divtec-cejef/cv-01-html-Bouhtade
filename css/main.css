@@ -1,27 +1,10 @@
-* {
-    box-sizing: border-box;
+p, li {
+    color: yellowgreen;
+    font-size: 150%;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+h1 {
+    font-size: 3em;
 }
-
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
-a {
-    color: deeppink;
-    text-decoration: none;
-}
-
-a:hover {
-    color: darkmagenta;
+h2 {
+    font-size: 1.5rem;
 }
