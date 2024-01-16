@@ -1,10 +1,34 @@
-p, li {
-    color: yellowgreen;
-    font-size: 150%;
+html {
+    background-color: darkslategray;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.alphacoders.com%2F750%2F75023.jpg");
+    max-width: 800px;
 }
 h1 {
     font-size: 3em;
 }
 h2 {
     font-size: 1.5rem;
+}
+header {
+    padding: 10px;
+    text-align: center;
+}
+nav, p, li {
+    background-color: rgba(10, 30, 30, 0.45);
+}
+p, li {
+    color: yellow;
+    font-size: 150%;
+}
+a {
+    color: chocolate;
+}
+a:visited {
+    color: aquamarine;
+}
+a:hover {
+    color: pink;
+}
+footer {
+    margin: 20px;
 }
