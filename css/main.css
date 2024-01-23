@@ -7,6 +7,11 @@ html {
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.alphacoders.com%2F750%2F75023.jpg");
     max-width: 1600px;
     font-family: "Bitstream Vera Serif Bold", serif;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
 }
 h1 {
     font-size: 3em;
