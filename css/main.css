@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+}
+html {
+    background-color: darkslategray;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.alphacoders.com%2F750%2F75023.jpg");
+    max-width: 1600px;
+    font-family: "Bitstream Vera Serif Bold", serif;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    border: 5px solid grey;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h1, h2 {
+    color: cornflowerblue;
+}
+header {
+    padding: 10px;
+    text-align: center;
+}
+img {
+    box-shadow: 10px 5px 5px darkslateblue;
+}
+nav, p, li {
+    background-color: rgba(10, 30, 30, 0.45);
+}
+p, li {
+    color: yellow;
+    font-size: 150%;
+}
+a {
+    color: chocolate;
+}
+a:visited {
+    color: aquamarine;
+}
+a:hover {
+    color: pink;
+}
+footer {
+    margin: 20px;
+    background-color: rgba(10, 30, 30, 0.45);
+    color: grey;
+}
